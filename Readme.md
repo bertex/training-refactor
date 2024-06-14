@@ -1,4 +1,4 @@
-#YATZY RULES
+# YATZY RULES
 
 The game of Yatzy is a simple dice game. Each player rolls five six-sided dice. They can re-roll some or all of the dice up to three times (including the original roll).
 
@@ -16,26 +16,27 @@ Your task is to score a GIVEN roll in a GIVEN category. You do NOT have to progr
 
 Kata: Yatzy Categories and Scoring Rules
 
-###Chance:
+## Chance:
 
 The player scores the sum of all dice, no matter what they read. For example:
 
 1,1,3,3,6 placed on "chance" scores 14 (1+1+3+3+6)
 4,5,5,6,1 placed on "chance" scores 21 (4+5+5+6+1)
-###Yatzy:
+
+# Yatzy:
 
 If all dice have the same number, the player scores 50 points. For example:
 
 1,1,1,1,1 placed on "yatzy" scores 50
 1,1,1,2,1 placed on "yatzy" scores 0
-###Ones, Twos, Threes, Fours, Fives, Sixes:
+## Ones, Twos, Threes, Fours, Fives, Sixes:
 
 The player scores the sum of the dice that reads one, two, three, four, five or six, respectively. For example:
 
 1,1,2,4,4 placed on "fours" scores 8 (4+4)
 2,3,2,5,1 placed on "twos" scores 4 (2+2)
 3,3,3,4,5 placed on "ones" scores 0
-###Pair:
+## Pair:
 
 The player scores the sum of the two highest matching dice. For example, when placed on "pair":
 
@@ -43,28 +44,28 @@ The player scores the sum of the two highest matching dice. For example, when pl
 1,1,6,2,6 scores 12 (6+6)
 3,3,3,4,1 scores 6 (3+3)
 3,3,3,3,1 scores 6 (3+3)
-###Two pairs:
+## Two pairs:
 
 If there are two pairs of dice with the same number, the player scores the sum of these dice. For example, when placed on "two pairs":
 
 1,1,2,3,3 scores 8 (1+1+3+3)
 1,1,2,3,4 scores 0
 1,1,2,2,2 scores 6 (1+1+2+2)
-###Three of a kind:
+## Three of a kind:
 
 If there are three dice with the same number, the player scores the sum of these dice. For example, when placed on "three of a kind":
 
 3,3,3,4,5 scores 9 (3+3+3)
 3,3,4,5,6 scores 0
 3,3,3,3,1 scores 9 (3+3+3)
-###Four of a kind:
+## Four of a kind:
 
 If there are four dice with the same number, the player scores the sum of these dice. For example, when placed on "four of a kind":
 
 2,2,2,2,5 scores 8 (2+2+2+2)
 2,2,2,5,5 scores 0
 2,2,2,2,2 scores 8 (2+2+2+2)
-###Small straight:
+## Small straight:
 
 When placed on "small straight", if the dice read
 
@@ -72,7 +73,7 @@ When placed on "small straight", if the dice read
 
 the player scores 15 (the sum of all the dice).
 
-###Large straight:
+## Large straight:
 
 When placed on "large straight", if the dice read
 
@@ -80,48 +81,10 @@ When placed on "large straight", if the dice read
 
 the player scores 20 (the sum of all the dice).
 
-###Full house:
+## Full house:
 
 If the dice are two of a kind and three of a kind, the player scores the sum of all the dice. For example, when placed on "full house":
 
 1,1,2,2,2 scores 8 (1+1+2+2+2)
 2,2,3,3,4 scores 0
 4,4,4,4,4 scores 0
-About
-No description, website, or topics provided.
-Resources
- Readme
- Activity
-Stars
- 0 stars
-Watchers
- 2 watching
-Forks
- 0 forks
-Releases
-No releases published
-Create a new release
-Packages
-No packages published
-Publish your first package
-Languages
-Java
-100.0%
-Suggested workflows
-Based on your tech stack
-Java with Gradle logo
-Java with Gradle
-Build and test a Java project using a Gradle wrapper script.
-SLSA Generic generator logo
-SLSA Generic generator
-Generate SLSA3 provenance for your existing release workflows
-Android CI logo
-Android CI
-Build an Android project with Gradle.
-More workflows
-Footer
-© 2024 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Secu
